@@ -17,7 +17,8 @@
   "show_inline_completions": true,
   "languages": {
     "Python": {
-      "format_on_save": "off",
+      "hard_tabs": true,
+      "tab_size": 4,
       "show_inline_completions": true
     }
   },
@@ -36,11 +37,11 @@
   "assistant": {
     "default_model": {
       "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-20240620"
+      "model": "claude-3-5-sonnet-latest"
     },
     "version": "2"
   },
-  "theme": "Gruvbox Dark",
+  "theme": "Tokyo Night Storm",
   // "experimental.theme_overrides": {
   //   "ghost_element.selected": "#303a45",
   //   "ghost_element.hover": "#303a45"

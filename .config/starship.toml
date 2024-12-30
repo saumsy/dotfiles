@@ -2,8 +2,8 @@
 style = "blue"
 
 [character]
-success_symbol = "[❯](purple)"
-error_symbol = "[❯](red)"
+success_symbol = "[➜](purple)"
+error_symbol = "[➜](red)"
 vimcmd_symbol = "[❮](green)"
 
 [cmd_duration]

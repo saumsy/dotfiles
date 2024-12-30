@@ -1,0 +1,7 @@
+shell-integration = fish
+font-family = Fira Code
+font-size = 15.0
+theme = catppuccin-macchiato
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
