@@ -4,6 +4,7 @@ end
 starship init fish | source
 fzf --fish | source
 thefuck --alias | source
+zoxide init fish | source
 
 set PATH $PATH ~/.cargo/bin
 set PATH $PATH /usr/local/bin
