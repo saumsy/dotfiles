@@ -8,6 +8,7 @@ zoxide init fish | source
 
 set PATH $PATH ~/.cargo/bin
 set PATH $PATH /usr/local/bin
+set PATH $PATH ~/.npm-global/bin/
 
 alias scg="source ~/bin/startcg.sh"
 alias lg=lazygit
