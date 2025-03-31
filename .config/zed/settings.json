@@ -14,12 +14,12 @@
       }
     }
   },
-  "show_inline_completions": true,
+  "show_edit_predictions": true,
   "languages": {
     "Python": {
       "hard_tabs": true,
       "tab_size": 4,
-      "show_inline_completions": true
+      "show_edit_predictions": true
     }
   },
   "tabs": {
@@ -36,16 +36,12 @@
   "vim_mode": false,
   "assistant": {
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-latest"
+      "provider": "copilot_chat",
+      "model": "claude-3-7-sonnet"
     },
     "version": "2"
   },
-  "theme": "Tokyo Night Storm",
-  // "experimental.theme_overrides": {
-  //   "ghost_element.selected": "#303a45",
-  //   "ghost_element.hover": "#303a45"
-  // },
+  "theme": "poimandres",
   "ui_font_size": 14,
   "buffer_font_size": 12.9,
   "buffer_font_family": "Fira Code",
