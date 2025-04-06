@@ -6,3 +6,4 @@ cursor-style = block
 cursor-style-blink = false
 shell-integration-features = no-cursor
 quit-after-last-window-closed=true
+window-padding-x = 4,0

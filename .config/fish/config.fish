@@ -13,6 +13,7 @@ set PATH $PATH ~/.npm-global/bin/
 alias scg="source ~/bin/startcg.sh"
 alias lg=lazygit
 alias c=code
+alias p=pnpm
 
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
