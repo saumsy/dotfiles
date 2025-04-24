@@ -7,6 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "icon_theme": "Material Icon Theme",
   "terminal": {
     "detect_venv": {
       "on": {
@@ -27,21 +28,15 @@
     "file_icons": true,
     "git_status": true
   },
-  "inlay_hints": {
-    "enabled": true,
-    "typeHints": true,
-    "parameterHints": true,
-    "chainingHints": true
-  },
   "vim_mode": false,
   "assistant": {
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-3-7-sonnet"
+      "model": "claude-3.7-sonnet-thought"
     },
     "version": "2"
   },
-  "theme": "poimandres",
+  "theme": "poimandres dark theme",
   "ui_font_size": 14,
   "buffer_font_size": 12.9,
   "buffer_font_family": "Fira Code",
