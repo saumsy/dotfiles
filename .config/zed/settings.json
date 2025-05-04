@@ -7,6 +7,14 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "edit_predictions": {
+    "mode": "eager",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null
+    },
+    "enabled_in_assistant": false
+  },
   "icon_theme": "Material Icon Theme",
   "terminal": {
     "detect_venv": {
@@ -31,8 +39,8 @@
   "vim_mode": false,
   "assistant": {
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "claude-3.7-sonnet-thought"
+      "provider": "zed.dev",
+      "model": "claude-3-7-sonnet-thinking-latest"
     },
     "version": "2"
   },
