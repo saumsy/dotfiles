@@ -12,7 +12,7 @@ set PATH $PATH ~/.npm-global/bin/
 
 alias scg="source ~/bin/startcg.sh"
 alias lg=lazygit
-alias c=code
+alias c=cursor
 alias p=pnpm
 alias music-rpc=/opt/homebrew/opt/apple-music-discord-rpc/bin/music-rpc.ts
 
