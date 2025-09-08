@@ -18,6 +18,7 @@ alias c=cursor
 alias p=pnpm
 alias px=pnpx
 alias music-rpc=/opt/homebrew/opt/apple-music-discord-rpc/bin/music-rpc.ts
+alias clang-format-all=find . -name "*.c" -exec clang-format -i {} +
 
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
