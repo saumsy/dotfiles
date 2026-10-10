@@ -32,8 +32,10 @@ fish_add_path /Users/saumya/.codeium/windsurf/bin
 source ~/.orbstack/shell/init2.fish 2>/dev/null || :
 
 # pnpm
-set -gx PNPM_HOME /Users/saumya/Library/pnpm
-if not string match -q -- $PNPM_HOME $PATH
-    set -gx PATH "$PNPM_HOME" $PATH
+set -gx PNPM_HOME "/Users/saumya/Library/pnpm"
+if not string match -q -- "$PNPM_HOME/bin" $PATH
+  set -gx PATH "$PNPM_HOME/bin" $PATH
 end
 # pnpm end
+export PATH="$HOME/.local/bin:$PATH"
+set -gx PATH $HOME/.local/bin $PATH
